@@ -6,7 +6,7 @@
 }
 
 /* Estilos especificos del HEADER */
-#logoencabezado {
+.logoencabezado {
   /*ajuste de la imagen */
   box-sizing: border-box;
   height: 80px;
