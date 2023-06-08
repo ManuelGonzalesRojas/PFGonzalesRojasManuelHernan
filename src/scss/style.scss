@@ -2,41 +2,14 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-   
-*{
-    text-align: justify;
-    font-family: 'Lato', sans-serif;
-}
-/* =========== HEADER =============*/
-header{
-    .logoencabezado{
-        /*ajuste de la imagen */
-        box-sizing: border-box;
-        height: 80px;
-        width: 80px;
-}
-}
-/*============ FOOTER ============*/
-
-/*Formato del footer */
-footer{
-    padding: 40px;
-    margin: 0px;
-    margin-top: 70px;
-    /*Ajuste de las imagenes */
-    .redes{
-        list-style: none;
-        box-sizing: border-box;
-        height: 45px;
-        width: 45px;
-        margin-left: 35px;
-    }
-}
-
+@import 'header';
+@import 'footer';
+@import 'general';
+@import 'contacto';
+@import 'ingenieros';
+@import 'nosotros';
 
 /* ============ PAGINA INDEX ============= */
-
 main{
     .p_info_index{
         margin-top: 30px;
@@ -75,47 +48,9 @@ main{
         }
     }
 }
-/* INGERNIEROS */
 
-main{
-    #section_ingenieros{
-        background-image: url(../publi/images/fondo1.jpg);
-        background-size: cover;
-        padding: 10% 0% 10% 0%;
 
-        .foto_ingeniero{
-            box-sizing: border-box;
-            height: 80%;
-            width: 80%;
-        }
-    }
 
-    .colabora{
-        box-sizing: border-box;
-        width: 10%;
-    }
-}
 
-/* CONTACTO */
-main{
-    #section_contacto{
-        background-image: url(../publi/images/imgformulario.png);
-        background-size: cover;
-        color:black;
-        padding: 10% 0% 10% 0%;
-    }
-    
-}
-
-/* NOSOTROS */
-main{
-    #section_nosotros{
-        margin-top: 30px;
-    }
-    .conferencia_img{
-        box-sizing: border-box;
-        width: 70%;
-    }
-}
 
 
