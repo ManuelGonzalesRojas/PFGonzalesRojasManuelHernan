@@ -1,16 +1,23 @@
 /*============ FOOTER ============*/
+$color-footer:#02142F;
 
-/*Formato del footer */
-footer{
-    padding: 40px;
-    margin: 0px;
-    margin-top: 70px;
-    /*Ajuste de las imagenes */
-    .redes{
-        list-style: none;
+/*Ajuste de las imagenes */
+@mixin img-redes{
+    list-style: none;
         box-sizing: border-box;
         height: 45px;
         width: 45px;
         margin-left: 35px;
+}
+
+
+footer{
+    background-color: $color-footer;
+    padding: 40px;
+    margin: 0px;
+    margin-top: 70px;
+    .redes{
+        @include img-redes;
     }
 }
+

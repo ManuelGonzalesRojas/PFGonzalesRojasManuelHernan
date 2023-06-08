@@ -10,10 +10,14 @@ main{
             height: 80%;
             width: 80%;
         }
+    
     }
 
-    .colabora{
-        box-sizing: border-box;
-        width: 10%;
+    #section_colaboradores{
+        margin-top: 30px;
+        .colabora{
+            box-sizing: border-box;
+            width: 10%;
+        }
     }
 }
